@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="/img/tijntjuh.png" type="image/x-icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Work at ZeroxNode | Home</title>
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+	<body>
+    <div class="container">
+  <div class="header">
+    <h2>Work at ZeroxNode</h2>
+  </div>
+  <form id="form" class="form">
+    <div class="form-control">
+      <label for="username">Full Name + Age</label>
+      <input type="text" placeholder="John Doe + 18" id="full-name" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="username">Email</label>
+      <input type="email" placeholder="info@example.com" id="email" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="username">Phone Number</label>
+      <input type="text" placeholder="+31612345678" id="phone-number" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="username">Discord Tag</label>
+      <input type="text" placeholder="Tijn#2686" id="discord-tag" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="username">Motivation + Experience</label>
+      <textarea type="text" id="motivation"></textarea>
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <button>Submit</button>
+  </form>
+</div>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);
+    </script>
+    <script>
+        window.addEventListener('keydown', function (ev) {
+            if (ev.ctrlKey && ev.keyCode === 85 || ev.keyCode === 123) {
+                ev.preventDefault();
+                return false;
+            }
+        });
+    </script>
+	<script src="/js/main.js" defer></script>
+	
+</body>
+
+</html>
